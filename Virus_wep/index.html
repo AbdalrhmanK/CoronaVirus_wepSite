@@ -1,0 +1,355 @@
+
+<!DOCTYPE html>
+<html>
+
+
+
+<head>
+	<title> IS club web page </title>
+	<link rel="stylesheet"  href="style.css">
+	
+</head>
+
+<script type="text/javascript">
+	window.alert("Hello world This is test for JS")
+
+</script>
+
+
+<body class="body">
+
+<header class = "mainHeader">
+	<img src="images/header.png">
+ </header>
+
+
+
+<div class="mainContent"> 
+
+<section class="contentOfSection1">
+	
+ <h1>  What is the COVID-19    </h1>
+
+ <footer>
+	<p class="infoWriter"> Written by : Abdalrhman al-shabanat </p>
+ </footer>
+
+ <article>
+	<p>
+
+		<b>  It is a new strain of the Corona virus that infects the respiratory system and was first identified in the city of Wuhan in the State of China and then spread to the rest of the world,  <span class="word" > and it is one of the infectious viruses that have spread recently. The world organization has warned that the Corona virus is an epidemic and the period of emergence may vary Sickness from 5 to 6 days approximately </span>
+
+        </b>
+
+	</p>
+
+  </article>
+
+ </section>
+
+<!-----------------------------------------> 
+
+<section class="contentOfSection2">
+	
+ <h3>  COVID-19 symptoms </h3>
+
+ <article>
+	<p>
+		<b>   Anorexia </b> – This may be associated with a loss of the sense of taste, which makes the person unable to sense the taste of food, and thus less desire to eat. 
+	</p>
+	
+	<p> <b> Headache </b> – It is a feeling of moderate or severe headache and it may come in the form of pressure around the head, but in general the headache may not be a cause for concern unless it appears in a different way than before.  </p>  
+
+    <p> <b> hard breathing </b>  – It occurs more often in people with Coronavirus, they can feel short of breath, and it is likely that this is due to an infection in the lungs. </p> 
+
+
+  </article>
+
+ </section>
+
+
+<!-----------------------------------------> 
+
+<section class="contentOfSection3">
+	
+ <h3>  Video about COVID-19  </h3>
+
+ <article>
+	<p>
+		This is a video that talks about Corona virus, and also what are the types of Corona virus and how the virus spreads in the body and where the virus came from .
+		
+	</p>
+
+<iframe width="680" height="500" src="https://www.youtube.com/embed/i0ZabxXmH4Y" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+  </article>
+
+ </section>
+
+
+<!----------------------------------------->
+
+
+<section class="contentOfSection4">
+	
+ <h3>  The environmental impact of the COVID-19 pandemic </h3>
+
+<img src="images/img1.jpg" class="img1">
+
+ <article>
+	<p>
+		 Since the beginning of the Corona pandemic, the world has witnessed a severe decrease in air pollution, specifically carbon monoxide and nitrogen dioxide, as most factories and the transport sector have closed due to the pandemic, and therefore this significant decrease has occurred.
+		
+	</p>
+
+
+  </article>
+
+ </section>
+
+
+<!----------------------------------------->
+
+
+<section class="contentOfSection5">
+	
+ <h3>  Key Actions for COVID-19 Prevention </h3>
+
+ <article>
+ 	<ol>
+	 <li> <b> Keep a distance from anyone who has sneezing or coughing </b> </li> 
+
+	 <li> <b> Wash hands and use hand sanitizer frequently </b> </li> 
+
+    <li> <b> Put the mask when going out of the house </b> </li> 
+</ol>
+
+  </article>
+
+ </section>
+
+
+<!----------------------------------------->
+
+
+<section class="contentOfSection6">
+	
+ <h3>  My favorite sites about COVID-19  </h3>
+
+ <article>
+	<a href= "https://www.worldometers.info/coronavirus/" target="_blank">Visit worldometers.info</a>
+<br>
+<br>
+<a href= "https://www.who.int/ar" target="_blank">Visit who.int</a>
+<br>
+<br>
+ <a href= "https://www.cdc.gov/" target="_blank">Visit cdc.gov
+ </a>
+  </article>
+
+ </section>
+
+
+<!----------------------------------------->
+
+<section class="contentOfSection7">
+	
+ <h3>  COVID-19 vaccine types in one Table </h3>
+
+ <table>
+<tr>
+<th>The name of the vaccine</th>
+<th>The number of doses</th>
+<th>Effectiveness</th>
+<th>The price is per dose</th>
+</tr>
+
+<tr>
+
+<td> Pfizer vaccine </td>
+<td> 2X </td>
+<td> 95% </td>
+<td> 20$ </td>
+
+</tr>
+
+<tr>
+
+<td> Moderna vaccine </td>
+<td> 2X </td>
+<td> 95% </td>
+<td> 33$ </td>
+
+</tr>
+
+<tr>
+
+<td> Novavax vaccine </td>
+<td> 2X </td>
+<td> 90% </td>
+<td> 16$ </td>
+
+</tr>
+
+
+
+ </table>
+
+
+</section>
+
+
+
+<!----------------------------------------->
+
+
+
+
+<section class="contentOfSection8">
+	<h3>  Input fields </h3>
+ <label for="fname">First name:</label>
+  <input value="Abdalrhman"><br><br>
+
+  <label for="lname">Last name:</label>
+  <input value="AL-shabanat"><br><br>
+  
+
+ </section>
+
+
+
+
+
+
+<!----------------------------------------->
+
+
+<section class="contentOfSection9">
+
+<script>
+function allowDrop(ev) {
+  ev.preventDefault();
+}
+
+function drag(ev) {
+  ev.dataTransfer.setData("text", ev.target.id);
+}
+
+function drop(ev) {
+  ev.preventDefault();
+  var data = ev.dataTransfer.getData("text");
+  ev.target.appendChild(document.getElementById(data));
+}
+</script>
+
+
+
+<h3>Drag and Drop</h3>
+<p>Drag the image back and forth between the two elements.</p>
+
+<div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
+  <img src="images/img2.png" draggable="true" ondragstart="drag(event)" id="drag1" width="88" height="42">
+</div>
+
+<div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+
+
+ </section>
+
+
+
+
+
+
+
+
+<!----------------------------------------->
+
+<section class="contentOfSection10">
+	
+ <h3>  My E-mail Address -----> 
+<a href= "https://outlook.office365.com/mail/inbox" target="_blank">441102385@student.ksu.edu.sa
+ </a>
+
+ </section>
+
+
+<!----------------------------------------->
+
+<section class="contentOfSection11">
+	
+ <h3> References </h3>
+
+<article>
+<a href= "https://www.aljazeera.net/news/healthmedicine/2020/7/27/22-%D8%B9%D9%84%D8%A7%D9%85%D8%A9-%D8%AF%D9%84%D9%8A%D9%84%D9%83-%D8%A7%D9%84%D8%B4%D8%A7%D9%85%D9%84-%D8%A5%D9%84%D9%89-%D8%A3%D8%B9%D8%B1%D8%A7%D8%B6-%D9%83%D9%88%D8%B1%D9%88%D9%86%D8%A7" target="_blank">Visit aljazeera.net </a>
+<br>
+<br>
+ <a href= "https://amalhamburg.de/2020/04/30/%D9%85%D8%A7-%D8%AA%D8%A3%D8%AB%D9%8A%D8%B1-%D8%AC%D8%A7%D8%A6%D8%AD%D8%A9-%D9%83%D9%88%D8%B1%D9%88%D9%86%D8%A7-%D8%B9%D9%84%D9%89-%D8%A7%D9%84%D8%A8%D9%8A%D8%A6%D8%A9-%D9%88%D9%85%D8%B3%D8%AA%D9%82/" target="_blank"> Visit amalhamburg.de
+ </a>
+<br>
+<br>
+<a href= "https://www.moh.gov.sa/en/HealthAwareness/EducationalContent/Corona/Pages/corona.aspx" target="_blank">Visit moh.gov.sa </a>
+<br>
+<br>
+<a href= "https://www.aljazeera.net/news/healthmedicine/2021/1/30/%D9%83%D9%88%D8%B1%D9%88%D9%86%D8%A7-%D9%84%D9%82%D8%A7%D8%AD%D8%A7%D8%AA-%D9%83%D9%88%D9%81%D9%8A%D8%AF-19-%D9%85%D9%82%D8%A7%D8%B1%D9%86%D8%A9-%D8%A8%D9%8A%D9%86" target="_blank">Visit aljazeera.net </a>
+<br>
+<br>
+<a href= "https://link.springer.com/article/10.1007/s11869-020-00918-3" target="_blank">Visit link.springer </a>
+ 
+  </article>
+
+<br>
+<a href= "https://www.who.int/ar/emergencies/diseases/novel-coronavirus-2019/question-and-answers-hub/q-a-detail/coronavirus-disease-covid-19" target="_blank">Visit who.int </a>
+ 
+  </article>
+<br>
+<br>
+<a href= "https://www.youtube.com/watch?v=jDe52MNG2yw&t=29s " target="_blank">Visit Youtube </a>
+ 
+  </article>
+
+
+ </section>
+
+
+<!----------------------------------------->
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<footer class="footer">
+	<p>
+		copy right
+	</p>
+</footer>
+
+
+
+
+
+
+
+</body>
+
+
+
+
+
+</html>

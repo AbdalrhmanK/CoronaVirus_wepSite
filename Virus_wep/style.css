@@ -1,0 +1,228 @@
+body{
+
+background-color: #eeeeee ;
+font-style: 87% ;
+font-family: Arial , 'Lucida Sans Unicode' ;
+text-align: left;
+line-height: 1.5;
+}
+
+
+h1{
+
+	color: red;
+}
+
+h3{
+
+color: red;
+
+}
+
+.body{
+
+margin: 10px auto ;
+width: 70% ;
+clear: both;
+
+}
+
+.mainHeader img {
+
+	width: 100% ;
+	border-radius: 10px;
+}
+
+.infoWriter{
+
+	font-size: 10px ;
+	color: #999;
+	font-style: italic;
+	margin-top: -26.5px ;
+}
+
+.contentOfSection1{
+
+background-color: #fff;
+padding: 10px;
+margin-top: 10px;
+border-radius: 10px;
+font-family: Candara;
+
+}
+.word{
+
+color: red;
+
+}
+
+.contentOfSection2{
+
+background-color: #fff;
+padding: 10px;
+margin-top: 10px;
+border-radius: 10px;
+font-family: Optima;
+
+}
+
+
+
+.contentOfSection3{
+
+background-color: #fff;
+padding: 10px;
+margin-top: 10px;
+border-radius: 10px;
+
+}
+
+.contentOfSection4{
+
+background-color: #fff;
+padding: 10px;
+margin-top: 10px;
+border-radius: 10px;
+
+}
+
+.contentOfSection5{
+
+background-color: #fff;
+padding: 10px;
+margin-top: 10px;
+border-radius: 10px;
+text-align: left;
+}
+
+.contentOfSection6{
+
+background-color: #fff;
+padding: 10px;
+margin-top: 10px;
+border-radius: 10px;
+text-align: left;
+}
+
+
+.contentOfSection7{
+
+background-color: #fff;
+padding: 10px;
+margin-top: 10px;
+border-radius: 10px;
+text-align: left;
+}
+
+table th {
+	text-align: left;
+	background-color: #3a6070 ;
+	color: #FFF ;
+	padding: 4px 30px 4px 8px
+}
+
+table td {
+border: 1px solid #e3e3e3 ;
+padding: 4px 8px ;
+}
+
+
+
+
+.contentOfSection8{
+
+background-color: #fff;
+padding: 10px;
+margin-top: 10px;
+border-radius: 10px;
+text-align: left;
+}
+
+.contentOfSection9{
+
+background-color: #fff;
+padding: 10px;
+margin-top: 10px;
+border-radius: 10px;
+text-align: left;
+}
+
+#div1, #div2 {
+  float: top;
+  width: 100px;
+  height: 35px;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+
+
+.contentOfSection10{
+
+background-color: #fff;
+padding: 10px;
+margin-top: 10px;
+border-radius: 10px;
+text-align: left;
+}
+
+
+.contentOfSection11{
+
+background-color: #fff;
+padding: 10px;
+margin-top: 10px;
+border-radius: 10px;
+text-align: left;
+}
+
+
+
+.img1{
+width: 300px;
+border-radius: 10px;
+
+}
+
+
+
+
+
+
+
+
+
+
+.footer {
+margin-top: 20px;
+width: 100%;
+background-color: #393e46;
+height: 60px;
+border-radius: 10px;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer p {
+
+	text-align: center;
+	color: white ;
+
+}
